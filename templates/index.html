@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="TemplateMo">
+  <link rel="shortcut icon" href=" {{ url_for('static', filename='images/UNIMETA_red_outline_logo_200x200.png') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+  <title>Corporación Universitaria del Meta - Unimeta</title>
+  <!-- Bootstrap core CSS -->
+  <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="static/css/fontawesome.css">
+  <link rel="stylesheet" href="static/css/templatemo-edu-meeting.css">
+  <link rel="stylesheet" href="static/css/owl.css">
+  <link rel="stylesheet" href="static/css/lightbox.css">
+
+</head>
+
+<body>
+
+  <!-- Sub Header -->
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <p><i class="fa fa-envelope"></i> contacto@unimeta.edu.co &nbsp;&nbsp;&nbsp;&nbsp;<i
+                class="fa fa-phone"></i> (8)6621825</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+
+              <img class="main-nav-img"
+                src="{{ url_for('static', filename='images/images_convenios_UNIMETA_logo_horizontal.png') }}">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
+              <li><a href="">Sobre Unimeta</a></li>
+              <li class="scroll-to-section"><a href="#apply">Educación Continuada</a></li>
+              <li class="has-sub">
+                <a href="javascript:void(0)">Páginas</a>
+                <ul class="sub-menu">
+                  <li><a href="">Test Vocacional</a></li>
+                  <li><a href="">Inscripciónes</a></li>
+                  <li><a href="">Admisiones</a></li>
+                  <li><a href="">Calendario Institucional</a></li>
+                  <li><a href="">Matrícula</a></li>
+                  <li><a href="">Pagos en linea</a></li>
+                </ul>
+              </li>
+              <li class="scroll-to-section"><a href="#courses">Reglamento</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+    <video autoplay muted loop id="bg-video">
+      <source src="{{ url_for('static', filename='images/course-video.mp4') }}" type="video/mp4" />
+    </video>
+    <div class="video-overlay header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="caption">
+              <h6>Hola Estudiantes</h6>
+              <h2>Bienvenido a la educación <br> de próxima generación</h2>
+              <p>Estudia tu carrera profesional en la Corporación Universitaria del Meta - UNIMETA somos
+                #UNANUEVAGENERACIÓNUNAGENERACIÓNCONHISTORIA</p>
+              <div class="main-button-red">
+                <div class="scroll-to-section"><a href="#contact">MATRICÚLATE AHORA</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+  <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-service-item owl-carousel">
+
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='images/service-icon-01.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Maestros de clase nacional</h4>
+                <p>Descubre nuestro equipo de educadores de élite, comprometidos con la excelencia académica y el
+                  desarrollo integral de cada estudiante.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='images/service-icon-02.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Instalaciones bien equipadas</h4>
+                <p>Explora nuestras instalaciones de vanguardia diseñadas para fomentar el aprendizaje, la creatividad y
+                  el bienestar de nuestros estudiantes.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='images/service-icon-03.png') }}" alt="">
+
+              </div>
+              <div class="down-content">
+                <h4>Excelentes académicos</h4>
+                <p>Sumérgete en un ambiente de aprendizaje estimulante, donde nuestros destacados académicos guían a los
+                  estudiantes hacia el éxito académico y personal.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='images/service-icon-02.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Clubes & Actividades</h4>
+                <p>Participa en una amplia gama de clubes y actividades extracurriculares diseñadas para nutrir
+                  intereses individuales y fomentar el trabajo en equipo y el liderazgo.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='images/service-icon-03.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Más de 40 años de experiencia</h4>
+                <p>Con más de cuatro décadas de dedicación a la educación de calidad, hemos establecido un legado de
+                  excelencia y compromiso con el éxito de nuestros estudiantes.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="upcoming-meetings" id="meetings">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>Artículos & Noticias</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="meeting-item">
+              <div class="thumb">
+                <a href=""><img src="{{ url_for('static', filename='images/meeting-01.jpg') }}"
+                    alt="New Lecturer Meeting"></a>
+              </div>
+              <div class="down-content">
+                <div class="date">
+                  <h6>Mar <span>24</span></h6>
+                </div>
+                <a href="">
+                  <h4>Capacitación acceso a recursos bibliográficos.</h4>
+                </a>
+                <p>Se capacitó a la comunidad Unimetense, en el uso de los recursos digitales disponibles...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="meeting-item">
+              <div class="thumb">
+                <a href=""><img src="{{ url_for('static', filename='images/meeting-02.jpg') }}"></a>
+              </div>
+              <div class="down-content">
+                <div class="date">
+                  <h6>Nov <span>28</span></h6>
+                </div>
+                <a href="">
+                  <h4>Estudiantes de Especializaciones en UNIMETA</h4>
+                </a>
+                <p>Los Parques del Hacha, Libertadores, Los Estudiantes y Banderas, fueron los sitios donde los
+                  estudiantes...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="meeting-item">
+              <div class="thumb">
+                <a href=""><img src="{{ url_for('static', filename='images/meeting-03.jpg') }}"
+                    alt="Higher Education"></a>
+              </div>
+              <div class="down-content">
+                <div class="date">
+                  <h6>Sep <span>19</span></h6>
+                </div>
+                <a href="">
+                  <h4>Atención integral a víctimas de violencia.</h4>
+                </a>
+                <p>MZOU Unimeta se encarga de realizar el proceso de activación de la ruta en los diferentes...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="meeting-item">
+              <div class="thumb">
+                <a href=""><img src="{{ url_for('static', filename='images/meeting-04.jpg') }}"
+                    alt="Student Training"></a>
+              </div>
+              <div class="down-content">
+                <div class="date">
+                  <h6>Nov <span>30</span></h6>
+                </div>
+                <a href="">
+                  <h4>Cómo elegir el curso de pregrado.</h4>
+                </a>
+                <p>Unimeta ofrece un cuestionario por medio de tu perfil te recomienda una carrera adecuada...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="apply-now" id="apply">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="item">
+                <h3>Programas de Pregrado</h3>
+                <p>Somos la primera institución de educación superior privada, regional y con 38 años de experiencia
+                  formando llaneros. Somos una nueva generación, una generación con historia.</p>
+                <div class="main-button-red">
+                  <div class="scroll-to-section"><a href="#contact">Más infromación</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="item">
+                <h3>Postgrado & Educación Continuada</h3>
+                <p>En la UNIMETA contamos con una variedad de programas de postgrado y diplomados que te facilitarán
+                  herramientas para ser un profesional más competitivo en el mercado laboral actual.</p>
+                <div class="main-button-yellow">
+                  <div class="scroll-to-section"><a href="#contact">Más infromación</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="accordions is-first-expanded">
+            <article class="accordion">
+              <div class="accordion-head">
+                <span>SOBRE NOSOTROS</span>
+                <span class="icon">
+                  <i class="icon fa fa-chevron-right"></i>
+                </span>
+              </div>
+              <div class="accordion-body">
+                <div class="content">
+                  <p><strong>Somos la primera institución de Educación Superior fundada en la región.</strong></p>
+                  <p>Institución de Educación Superior de carácter privado, sin ánimo de lucro, de Colombia y la
+                    Orinoquía colombiana, con personería jurídica expedida por el Ministerio de Educación Nacional (MEN)
+                    mediante Resolución No. 12249.</p>
+                </div>
+              </div>
+            </article>
+            <article class="accordion">
+              <div class="accordion-head">
+                <span>¿POR QUÉ NOSOTROS?</span>
+                <span class="icon">
+                  <i class="icon fa fa-chevron-right"></i>
+                </span>
+              </div>
+              <div class="accordion-body">
+                <div class="content">
+                  <p> <strong>Ayudamos a cada estudiante a destacarse del resto.</strong></p>
+                  <p>Formamos integralmente personas competentes, fundamentadas en criterios socio-humanísticos,
+                    comprometidos con la responsabilidad social y la consolidación del desarrollo sostenible de la
+                    región.</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="accordion last-accordion">
+              <div class="accordion-head">
+                <span>DESTACADO DE ANTIGUOS ALUMNOS</span>
+                <span class="icon">
+                  <i class="icon fa fa-chevron-right"></i>
+                </span>
+              </div>
+              <div class="accordion-body">
+                <div class="content">
+                  <p><strong>Lo que dicen nuestros estudiantes</strong></p>
+                  <p>Encuentra las experiencias de nuestros antiguos alumnos y cómo su paso por nuestra institución ha
+                    impactado sus vidas. Desde desafíos superados hasta logros profesionales, sus testimonios reflejan
+                    el valor de una educación de calidad. Conoce cómo nuestra comunidad educativa ha contribuido a su
+                    éxito personal y profesional.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="our-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>Tenemos los mejores programas de su clase para ti.</h2>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="count-area-content percentage">
+                    <div class="count-digit">92</div>
+                    <div class="count-title">ESTUDIANTES GRADUADOS</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="count-area-content">
+                    <div class="count-digit">40</div>
+                    <div class="count-title">AÑOS DE EXPERIENCIA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="count-area-content new-students">
+                    <div class="count-digit">2345</div>
+                    <div class="count-title">NUEVOS ESTUDIANTES</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="count-area-content">
+                    <div class="count-digit">1</div>
+                    <div class="count-title">CAMPUS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <div class="video">
+
+            <a href="https://youtu.be/9P2-H5pVNpc" target="_blank"><img
+                src="{{ url_for('static', filename='images/play-icon.png') }}" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-us" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <form id="contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>SOLICITE UN TOUR</h2>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                      <input name="name" type="text" id="name" placeholder="NOMBRE COMPLETO..." required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                      <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-MAIL..."
+                        required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                      <input name="subject" type="text" id="subject" placeholder="EDIFICIOS DE INTERÉS..." required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" type="text" class="form-control" id="message"
+                        placeholder="DÉJANOS UN MENSAJE..." required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="button">RESERVAR UN TOUR</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="right-info">
+            <ul>
+              <li>
+                <h6>RESERVA VIA TELEFONICA</h6>
+                <p class="text-white">(8) 514 - 3698</p>
+              </li>
+              <li>
+                <h6>RESERVA VIA E-MAIL</h6>
+                <p class="text-white">tours@unimeta.edu.co</p>
+              </li>
+              <li>
+                <h6>DiRECCIÓN</h6>
+                <p class="text-white">Institución Universitaria Villavicencio - Meta</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
+    </div>
+  </section>
+  <div class="container_box">
+    <div class="chatbox">
+      <div class="chatbox__support">
+        <div class="chatbox__header">
+          <div class="chatbox__image--header">
+            <img src="{{ url_for('static', filename='images/Tyto.png') }}" style="border-radius: 50%;" alt="image">
+          </div>
+          <div class="chatbox__content--header">
+            <h4 class="chatbox__heading--header text-100 medium text-uppercase color-neutral-800">Asistente Virtual</h4>
+            <p class="chatbox__description--header">Hola. Mi nombre es Tyto. ¿En que puedo ayudarte?</p>
+          </div>
+        </div>
+        <div class="chatbox__messages">
+          <div></div>
+        </div>
+        <div class="chatbox__footer">
+          <input class="input_box" type="text" placeholder="Escribe una pregunta...">
+          <button class="chatbox__send--footer send__button line-square-icon btn_box"><i class="fa fa-play"></i></button>
+        </div>
+      </div>
+      <div class="chatbox__button">
+        <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Scripts -->
+  <script>
+    $SCRIPT_ROOT = {{ request.script_root|tojson }};
+</script>
+  <!-- Bootstrap core JavaScript -->
+
+  <script src="static/jquery/jquery.min.js"></script>
+  <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="static/js/app.js"></script>
+  <script src="static/js/isotope.min.js"></script>
+  <script src="static/js/owl-carousel.js"></script>
+  <script src="static/js/lightbox.js"></script>
+  <script src="static/js/tabs.js"></script>
+  <script src="static/js/video.js"></script>
+  <script src="static/js/slick-slider.js"></script>
+  <script src="static/js/custom.js"></script>
+  <script>
+    //according to loftblog tut
+    $('.nav li:first').addClass('active');
+
+    var showSection = function showSection(section, isAnimate) {
+      var
+        direction = section.replace(/#/, ''),
+        reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+        reqSectionPos = reqSection.offset().top - 0;
+
+      if (isAnimate) {
+        $('body, html').animate({
+          scrollTop: reqSectionPos
+        },
+          800);
+      } else {
+        $('body, html').scrollTop(reqSectionPos);
+      }
+
+    };
+
+    var checkSection = function checkSection() {
+      $('.section').each(function () {
+        var
+          $this = $(this),
+          topEdge = $this.offset().top - 80,
+          bottomEdge = topEdge + $this.height(),
+          wScroll = $(window).scrollTop();
+        if (topEdge < wScroll && bottomEdge > wScroll) {
+          var
+            currentId = $this.data('section'),
+            reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+          reqLink.closest('li').addClass('active').
+            siblings().removeClass('active');
+        }
+      });
+    };
+
+    $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+      e.preventDefault();
+      showSection($(this).attr('href'), true);
+    });
+
+    $(window).scroll(function () {
+      checkSection();
+    });
+  </script>
+</body>
+
+</body>
+
+</html>

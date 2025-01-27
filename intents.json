@@ -1,0 +1,734 @@
+{
+  "intents": [
+     {
+      "tag": "greeting",
+      "patterns": [
+        "Hola",
+        "Buen día",
+        "Buenos días",
+        "Buenas tardes",
+        "¿Cómo estás?",
+        "¿Qué tal?",
+        "¿Hay alguien ahí?",
+        "¡Hola!",
+        "Soy un estudiante universitario",
+        "Hola Tyto",
+        "Saludos",
+        "¿Qué pasa?",
+        "¿Cómo te va?",
+        "¿Qué hay de nuevo?",
+        "¡Hey!",
+        "Hola, ¿me escuchas?",
+        "Hola, ¿cómo te encuentras?",
+        "¡Saludos cordiales!",
+        "¡Hola, amigo!",
+        "¡Hola, colega!",
+        "Hola, ¿qué me cuentas?",
+        "¿Cómo va todo?",
+        "¡Hola, Tyto! ¿Cómo estás?",
+        "¿Qué tal tu día?",
+        "Hola, ¿qué tal va la vida?",
+        "¡Hola! ¿Cómo has estado?",
+        "¡Hola! ¿Qué hay de interesante hoy?",
+        "¿Qué tal, Tyto? ¿Cómo va todo?"
+      ],
+      "responses": [
+        "Hola, Soy Tyto. ¿En qué puedo ayudarte hoy?",
+        "¡Hola! Soy Tyto, el asistente virtual de Unimeta. ¿En qué puedo asistirte?",
+        "¡Hola! Bienvenido a Unimeta. Soy Tyto, ¿en qué puedo ayudarte?",
+        "¡Hola! Soy Tyto de Unimeta. ¿Cómo puedo ayudarte hoy?",
+        "Hola, soy Tyto, el chatbot de Unimeta. ¿En qué puedo colaborarte?",
+        "¡Hola! Soy Tyto, ¿qué puedo hacer por ti hoy?",
+        "¡Hola! ¿Cómo estás? Estoy aquí para ayudarte.",
+        "¡Saludos! ¿En qué puedo ser útil hoy?",
+        "Hola, ¿qué tal? Estoy listo para responder tus preguntas.",
+        "¡Hola! ¿Cómo te va? Cuéntame, ¿en qué necesitas ayuda?",
+        "¡Hey! Estoy aquí para ayudarte. ¿Qué necesitas?",
+        "¡Hola! Si necesitas información, aquí estoy.",
+        "Hola, amigo. ¿Cómo puedo asistirte hoy?",
+        "¡Hola! ¿Tienes alguna consulta? Estoy a tu disposición.",
+        "¡Hola! ¿En qué puedo ayudarte en este día?",
+        "Hola, colega. ¿Qué puedo hacer por ti hoy?",
+        "¡Hola! ¿Cómo va tu día? Estoy aquí para lo que necesites.",
+        "Hola, ¿qué tal todo? Si tienes preguntas, no dudes en preguntar.",
+        "¡Hola! ¿Qué hay de nuevo? Estoy aquí para ayudarte.",
+        "Hola, ¿cómo te sientes hoy? Estoy listo para asistirte."
+      ]
+    },
+   {
+      "tag": "goodbye",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Nos vemos",
+        "Me tengo que ir",
+        "Chao",
+        "Hasta pronto",
+        "Cuídate",
+        "Hasta la próxima",
+        "Nos hablamos",
+        "Me despido",
+        "Que tengas un buen día",
+        "Hasta mañana",
+        "Hasta luego, Tyto",
+        "Adiós, nos vemos luego",
+        "Chao, cuídate",
+        "Me voy, gracias",
+        "Hasta luego, amigo",
+        "Hasta la vista",
+        "Nos vemos pronto",
+        "Adiós, que te vaya bien"
+      ],
+      "responses": [
+        "¡Hasta luego! Si tienes más preguntas, no dudes en volver. ¡Que tengas un excelente día!",
+        "¡Nos vemos! Recuerda que estoy aquí para ayudarte en lo que necesites. ¡Éxito en tus estudios!",
+        "¡Adiós! Siempre puedes contar conmigo para resolver tus dudas. ¡Que tengas un buen día!",
+        "Siempre puedes encontrarme aquí si necesitas ayuda. ¡Hasta pronto!",
+        "Chao, ¡espero verte pronto de nuevo! Siempre estoy disponible para ayudarte.",
+        "¡Cuídate! Espero que tengas un día maravilloso. ¡Hasta la próxima!",
+        "¡Hasta la vista! No dudes en regresar si necesitas más información.",
+        "¡Nos hablamos! Estoy aquí cuando me necesites. ¡Adiós por ahora!",
+        "¡Hasta mañana! Estoy ansioso por ayudarte de nuevo.",
+        "¡Adiós! Cuida de ti mismo y hasta la próxima vez.",
+        "¡Hasta luego, amigo! Siempre es un placer ayudarte.",
+        "¡Chao! No olvides que aquí estoy para cualquier cosa que necesites.",
+        "¡Hasta la próxima! Espero que tengas un buen día.",
+        "¡Nos vemos pronto! Recuerda que estoy aquí para ti.",
+        "¡Adiós, que te vaya bien! Espero verte de nuevo pronto."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Gracias",
+        "Gracias por la ayuda",
+        "¡Excelente ayuda!",
+        "¡Muchas gracias!",
+        "Tyto, gracias por tu ayuda",
+        "¡Gracias, Tyto!",
+        "Te agradezco mucho",
+        "Aprecio tu ayuda",
+        "¡Mil gracias!",
+        "¡Qué bien me has ayudado!",
+        "Eres genial, gracias",
+        "¡Gracias por tu apoyo!",
+        "No sé qué haría sin ti",
+        "¡Gracias, eres el mejor!",
+        "Gracias por estar aquí",
+        "Te lo agradezco de verdad",
+        "¡Gracias por tu tiempo!",
+        "¡Eres un gran ayuda!",
+        "Gracias, me has aclarado mucho",
+        "¡Increíble, gracias!"
+      ],
+      "responses": [
+        "¡De nada! Si necesitas más ayuda, no dudes en preguntar.",
+        "¡Siempre a tu disposición! ¿Hay algo más en lo que pueda ayudarte?",
+        "¡Es un placer ayudarte! ¡Que tengas un excelente día estudiantil!",
+        "¡No hay de qué! Recuerda que estamos aquí para apoyarte en todo lo que necesites.",
+        "¡Gracias a ti por confiar en mí como tu asistente virtual de Unimeta! ¡Siempre a tu servicio!",
+        "¡Me alegra haber sido de ayuda! Si tienes más preguntas, aquí estoy.",
+        "¡De nada! Estoy aquí para hacer tu vida más fácil. ¿Necesitas algo más?",
+        "¡Es un placer! Si hay algo más que necesites, no dudes en decírmelo.",
+        "¡Gracias por tus amables palabras! Estoy aquí para ayudarte siempre.",
+        "¡No hay problema! Estoy aquí para apoyarte en lo que necesites."
+      ]
+    },
+    {
+  "tag": "carreras",
+  "patterns": [
+    "¿Qué programas tienen?",
+    "¿Qué puedo estudiar?",
+    "¿Qué carreras están disponibles?",
+    "Quiero saber sobre sus programas académicos",
+    "¿Qué opciones de carreras ofrecen?",
+    "¿Tienen carreras de ingeniería?",
+    "Me gustaría información sobre las carreras",
+    "¿Puedo conocer las carreras que ofrecen?",
+    "Quiero estudiar en Unimeta, ¿qué carreras tienen?",
+    "¿Qué carreras puedo encontrar en Unimeta?",
+    "¿Hay opciones de estudio en áreas de ingeniería?",
+    "¿Qué programas puedo estudiar?",
+    "Quiero información sobre carreras universitarias",
+    "¿Qué opciones de estudio tienen disponibles?",
+    "¿Cuáles son las carreras que puedo estudiar en Unimeta?"
+  ],
+  "responses": [
+    "Ofrecemos programas en Ingeniería de Sistemas, Ingeniería Civil y más.",
+    "Puedes estudiar Derecho, Administración de Empresas o Contaduría.",
+    "Tenemos carreras como Ingeniería Ambiental e Ingeniería Industrial.",
+    "Contamos con programas como Comunicación Social y Arquitectura.",
+    "Puedes elegir entre programas como Trabajo Social y Mercadeo.",
+    "Algunas de nuestras opciones son Ingeniería de Alimentos y Derecho.",
+    "Puedes estudiar Mercadeo y Publicidad o Contaduría Pública.",
+    "Te ofrecemos Ingeniería Eléctrica y muchas otras opciones.",
+    "Tenemos Ingeniería Agroindustrial y carreras en áreas administrativas.",
+    "En Unimeta puedes estudiar desde Derecho hasta Ingeniería de Sistemas.",
+    "Ofrecemos programas variados, como Administración y Comunicación Social.",
+    "Las carreras incluyen opciones como Ingeniería Civil y Trabajo Social.",
+    "En Unimeta hay programas de Arquitectura y Contaduría Pública.",
+    "Puedes estudiar Comunicación Social, Trabajo Social o Ingeniería Eléctrica.",
+    "En el área de ingeniería, ofrecemos carreras como Ingeniería Agroindustrial."
+  ]
+    },
+    {
+  "tag": "administracion_empresas",
+  "patterns": [
+    "Quiero información sobre Administración de Empresas",
+    "¿Qué puedo saber sobre Administración de Empresas?",
+    "Información sobre la carrera de Administración de Empresas",
+    "¿Cómo es el programa de Administración de Empresas?",
+    "¿Qué ofrece la carrera de Administración de Empresas?",
+    "Háblame sobre la carrera de Administración de Empresas",
+    "¿Qué incluye el programa de Administración de Empresas?",
+    "Estoy interesado en estudiar Administración de Empresas",
+    "¿Qué puedo aprender en Administración de Empresas?",
+    "¿Cuál es el plan de estudios de Administración de Empresas?"
+  ],
+  "responses": [
+    "La carrera de Administración de Empresas te prepara para gestionar organizaciones de manera eficiente.",
+    "En esta carrera, aprenderás sobre finanzas, recursos humanos y marketing.",
+    "El programa incluye temas clave como la gestión empresarial y la toma de decisiones estratégicas.",
+    "En Unimeta, Administración de Empresas cubre áreas como gestión financiera, recursos humanos y más.",
+    "Con Administración de Empresas, podrás desarrollar habilidades para dirigir empresas y organizaciones.",
+    "El plan de estudios incluye desde estrategias empresariales hasta la gestión de proyectos.",
+    "Podrás aprender sobre liderazgo, finanzas, y administración de recursos en empresas.",
+    "Te ofrecemos un programa completo que abarca todas las áreas de gestión empresarial.",
+    "La carrera de Administración de Empresas abarca gestión, finanzas, marketing y más.",
+    "Estudiarás temas como planificación estratégica, contabilidad y manejo de equipos."
+  ]
+    },
+    {
+  "tag": "contaduria_publica",
+  "patterns": [
+    "Quiero información sobre Contaduría Pública",
+    "¿Qué puedo saber sobre Contaduría Pública?",
+    "Información sobre la carrera de Contaduría Pública",
+    "¿Cómo es la carrera de Contaduría Pública?",
+    "¿Qué se estudia en Contaduría Pública?",
+    "Háblame sobre Contaduría Pública",
+    "Estoy interesado en Contaduría Pública",
+    "¿Cuál es el plan de estudios de Contaduría Pública?",
+    "¿Qué temas cubre la carrera de Contaduría Pública?",
+    "¿Qué ofrece el programa de Contaduría Pública?"
+  ],
+  "responses": [
+    "Contaduría Pública te prepara para trabajar en contabilidad y finanzas.",
+    "La carrera de Contaduría Pública incluye temas como auditoría, impuestos y finanzas.",
+    "Aprenderás sobre contabilidad financiera, auditoría y gestión de impuestos.",
+    "En Unimeta, el programa de Contaduría Pública abarca temas clave como finanzas, auditoría y legislación tributaria.",
+    "La carrera te capacita en auditoría, contabilidad y la preparación de informes financieros.",
+    "Nuestro plan de estudios cubre impuestos, auditoría y gestión financiera.",
+    "Estudiarás auditoría, legislación tributaria y manejo contable en empresas.",
+    "El programa de Contaduría Pública te forma para llevar registros contables y auditar empresas.",
+    "Ofrecemos un enfoque en la contabilidad financiera, el control y la planificación fiscal.",
+    "La carrera incluye áreas como la auditoría financiera, gestión tributaria y contabilidad de costos."
+  ]
+    },
+    {
+  "tag": "mercadeo_publicidad",
+  "patterns": [
+    "Quiero información sobre Mercadeo y Publicidad",
+    "¿Qué puedo saber sobre Mercadeo y Publicidad?",
+    "Información sobre la carrera de Mercadeo y Publicidad",
+    "¿Cómo es la carrera de Mercadeo y Publicidad?",
+    "¿Qué se estudia en Mercadeo y Publicidad?",
+    "Háblame sobre la carrera de Mercadeo y Publicidad",
+    "Estoy interesado en Mercadeo y Publicidad",
+    "¿Cuál es el plan de estudios de Mercadeo y Publicidad?",
+    "¿Qué temas cubre la carrera de Mercadeo y Publicidad?",
+    "¿Qué ofrece el programa de Mercadeo y Publicidad?"
+  ],
+  "responses": [
+    "La carrera de Mercadeo y Publicidad te prepara para crear estrategias de marketing y campañas publicitarias.",
+    "En esta carrera, aprenderás sobre investigación de mercados, branding y publicidad digital.",
+    "Mercadeo y Publicidad abarca temas como gestión de marcas y comunicación estratégica.",
+    "En Unimeta, ofrecemos un enfoque integral en publicidad, marketing digital y análisis de consumidores.",
+    "El plan de estudios incluye desde estrategias publicitarias hasta análisis de mercado.",
+    "Podrás aprender sobre marketing digital, campañas publicitarias y gestión de productos.",
+    "La carrera cubre áreas como la publicidad, investigación de mercados y gestión de marcas.",
+    "Te formarás en la creación de campañas publicitarias y desarrollo de estrategias de marketing.",
+    "El programa incluye estrategias publicitarias, branding y análisis del comportamiento del consumidor.",
+    "En Mercadeo y Publicidad, te enseñamos a manejar estrategias de comunicación y posicionamiento de marcas."
+  ]
+    },
+    {
+  "tag": "derecho",
+  "patterns": [
+    "Quiero información sobre Derecho",
+    "¿Qué puedo saber sobre Derecho?",
+    "Información sobre la carrera de Derecho",
+    "¿Cómo es la carrera de Derecho?",
+    "¿Qué se estudia en Derecho?",
+    "Estoy interesado en Derecho",
+    "Háblame sobre la carrera de Derecho",
+    "¿Qué ofrece el programa de Derecho?",
+    "¿Qué áreas cubre la carrera de Derecho?",
+    "¿Cuál es el plan de estudios de Derecho?"
+  ],
+  "responses": [
+    "La carrera de Derecho te forma en áreas como derecho civil, penal y laboral.",
+    "En Derecho aprenderás sobre legislación, juicios y resolución de conflictos.",
+    "El programa cubre derecho penal, derecho civil, constitucional y más.",
+    "Te ofrecemos una formación completa en áreas como derecho laboral y comercial.",
+    "En Unimeta, el plan de Derecho abarca materias clave como derecho civil y penal.",
+    "La carrera de Derecho incluye cursos en derechos humanos y derecho procesal.",
+    "Estudiarás legislación, juicios, y cómo defender casos en diversas áreas del derecho.",
+    "Nuestro programa de Derecho cubre desde el derecho constitucional hasta el comercial.",
+    "Podrás aprender sobre derecho penal, laboral, civil y mucho más.",
+    "Te formarás en análisis de leyes, procesos judiciales y la defensa de los derechos."
+  ]
+    },
+    {
+      "tag": "comunicacion_social",
+      "patterns": [
+        "Quiero información sobre Comunicación Social y Periodismo",
+        "¿Qué puedo saber sobre Comunicación Social y Periodismo?",
+        "Información sobre la carrera de Comunicación Social y Periodismo"
+      ],
+      "responses": [
+        "La carrera de Comunicación Social y Periodismo en Unimeta prepara a los estudiantes para el mundo de la comunicación.",
+        "Nuestro plan de estudios cubre áreas como periodismo digital, producción audiovisual, comunicación corporativa, entre otros. ¿Hay algo más que te gustaría saber?"
+      ]
+    },
+    {
+  "tag": "comunicacion_social",
+  "patterns": [
+    "Quiero información sobre Comunicación Social y Periodismo",
+    "¿Qué puedo saber sobre Comunicación Social y Periodismo?",
+    "Información sobre la carrera de Comunicación Social y Periodismo",
+    "¿Cómo es la carrera de Comunicación Social?",
+    "¿Qué se estudia en Comunicación Social y Periodismo?",
+    "Estoy interesado en Comunicación Social y Periodismo",
+    "Háblame sobre la carrera de Comunicación Social",
+    "¿Qué ofrece el programa de Comunicación Social?",
+    "¿Qué áreas cubre la carrera de Comunicación Social?",
+    "¿Cuál es el plan de estudios de Comunicación Social y Periodismo?"
+  ],
+  "responses": [
+    "La carrera de Comunicación Social y Periodismo te forma en el ámbito de la comunicación y el periodismo.",
+    "Aprenderás sobre periodismo digital, producción audiovisual y comunicación corporativa.",
+    "Nuestro programa abarca temas como reportaje, investigación periodística y gestión de medios.",
+    "En Unimeta, ofrecemos un enfoque práctico en periodismo, publicidad y comunicación social.",
+    "El plan de estudios incluye comunicación estratégica, producción de contenido y análisis de medios.",
+    "Podrás explorar áreas como la comunicación organizacional y el periodismo investigativo.",
+    "Estudiarás habilidades para redactar, investigar y producir contenido multimedia.",
+    "El programa cubre desde producción audiovisual hasta comunicación digital y social.",
+    "Te formarás en técnicas de redacción, periodismo digital y gestión de redes sociales.",
+    "La carrera te preparará para enfrentar los desafíos de la comunicación en la era digital."
+  ]
+    },
+    {
+  "tag": "arquitectura",
+  "patterns": [
+    "Quiero información sobre Arquitectura",
+    "¿Qué puedo saber sobre Arquitectura?",
+    "Información sobre la carrera de Arquitectura",
+    "¿Cómo es la carrera de Arquitectura?",
+    "¿Qué se estudia en Arquitectura?",
+    "Estoy interesado en Arquitectura",
+    "Háblame sobre la carrera de Arquitectura",
+    "¿Qué ofrece el programa de Arquitectura?",
+    "¿Qué áreas cubre la carrera de Arquitectura?",
+    "¿Cuál es el plan de estudios de Arquitectura?"
+  ],
+  "responses": [
+    "La carrera de Arquitectura te prepara para diseñar y planificar espacios habitables.",
+    "Aprenderás sobre diseño arquitectónico, urbanismo y tecnología de la construcción.",
+    "Nuestro programa incluye materias como historia de la arquitectura y técnicas de representación.",
+    "En Unimeta, ofrecemos un enfoque práctico en el diseño y la planificación urbana.",
+    "El plan de estudios abarca desde la teoría del diseño hasta la gestión de proyectos arquitectónicos.",
+    "Podrás explorar áreas como sostenibilidad, diseño interior y planificación urbana.",
+    "Estudiarás cómo crear espacios funcionales y estéticamente agradables.",
+    "La carrera cubre desde la creación de planos hasta la ejecución de proyectos de construcción.",
+    "Te formarás en diseño 3D, urbanismo y gestión de obras arquitectónicas.",
+    "El programa te prepara para enfrentar desafíos en el campo de la arquitectura contemporánea."
+  ]
+    },
+    {
+  "tag": "ingenieria_agroindustrial",
+  "patterns": [
+    "Quiero información sobre Ingeniería Agroindustrial",
+    "¿Qué puedo saber sobre Ingeniería Agroindustrial?",
+    "Información sobre la carrera de Ingeniería Agroindustrial",
+    "¿Cómo es la carrera de Ingeniería Agroindustrial?",
+    "¿Qué se estudia en Ingeniería Agroindustrial?",
+    "Estoy interesado en Ingeniería Agroindustrial",
+    "Háblame sobre la carrera de Ingeniería Agroindustrial",
+    "¿Qué ofrece el programa de Ingeniería Agroindustrial?",
+    "¿Qué áreas cubre la carrera de Ingeniería Agroindustrial?",
+    "¿Cuál es el plan de estudios de Ingeniería Agroindustrial?"
+  ],
+  "responses": [
+    "La carrera de Ingeniería Agroindustrial te prepara para gestionar procesos en el sector agropecuario.",
+    "Aprenderás sobre producción agrícola, tecnología de alimentos y gestión de calidad.",
+    "Nuestro programa incluye materias como agroecología, procesamiento de alimentos y sostenibilidad.",
+    "En Unimeta, ofrecemos un enfoque práctico en la gestión de proyectos agroindustriales.",
+    "El plan de estudios abarca desde la producción agrícola hasta el análisis de mercado.",
+    "Podrás explorar áreas como biotecnología, ingeniería de procesos y gestión ambiental.",
+    "Estudiarás cómo optimizar la producción y asegurar la calidad de los alimentos.",
+    "La carrera cubre desde la investigación hasta el desarrollo de productos agroindustriales.",
+    "Te formarás en el manejo de recursos naturales y tecnologías sostenibles.",
+    "El programa te prepara para enfrentar los desafíos del sector agroindustrial contemporáneo."
+  ]
+    },
+    {
+  "tag": "ingenieria_ambiental",
+  "patterns": [
+    "Quiero información sobre Ingeniería Ambiental",
+    "¿Qué puedo saber sobre Ingeniería Ambiental?",
+    "Información sobre la carrera de Ingeniería Ambiental",
+    "¿Cómo es la carrera de Ingeniería Ambiental?",
+    "¿Qué se estudia en Ingeniería Ambiental?",
+    "Estoy interesado en Ingeniería Ambiental",
+    "Háblame sobre la carrera de Ingeniería Ambiental",
+    "¿Qué ofrece el programa de Ingeniería Ambiental?",
+    "¿Qué áreas cubre la carrera de Ingeniería Ambiental?",
+    "¿Cuál es el plan de estudios de Ingeniería Ambiental?"
+  ],
+  "responses": [
+    "La carrera de Ingeniería Ambiental te prepara para proteger y conservar el medio ambiente.",
+    "Aprenderás sobre gestión de recursos naturales, control de contaminación y sostenibilidad.",
+    "Nuestro programa incluye materias como evaluación de impacto ambiental y gestión de residuos.",
+    "En Unimeta, ofrecemos un enfoque práctico en proyectos de conservación y restauración ecológica.",
+    "El plan de estudios abarca desde el análisis de contaminación hasta la restauración de ecosistemas.",
+    "Podrás explorar áreas como energías renovables, planificación ambiental y gestión de proyectos sostenibles.",
+    "Estudiarás cómo evaluar y mitigar el impacto ambiental de diversas actividades humanas.",
+    "La carrera cubre desde la legislación ambiental hasta el desarrollo de tecnologías limpias.",
+    "Te formarás en la investigación y análisis de problemas ambientales actuales.",
+    "El programa te prepara para enfrentar los desafíos ambientales en el mundo contemporáneo."
+  ]
+    },
+    {
+  "tag": "ingenieria_civil",
+  "patterns": [
+    "Quiero información sobre Ingeniería Civil",
+    "¿Qué puedo saber sobre Ingeniería Civil?",
+    "Información sobre la carrera de Ingeniería Civil",
+    "¿Cómo es la carrera de Ingeniería Civil?",
+    "¿Qué se estudia en Ingeniería Civil?",
+    "Estoy interesado en Ingeniería Civil",
+    "Háblame sobre la carrera de Ingeniería Civil",
+    "¿Qué ofrece el programa de Ingeniería Civil?",
+    "¿Qué áreas cubre la carrera de Ingeniería Civil?",
+    "¿Cuál es el plan de estudios de Ingeniería Civil?"
+  ],
+  "responses": [
+    "La carrera de Ingeniería Civil te prepara para diseñar y construir infraestructuras como edificios y puentes.",
+    "Aprenderás sobre diseño estructural, geotecnia, y gestión de proyectos de construcción.",
+    "Nuestro programa incluye materias como mecánica de suelos, hidráulica y planificación urbana.",
+    "En Unimeta, ofrecemos un enfoque práctico en la construcción y diseño de infraestructuras.",
+    "El plan de estudios abarca desde el cálculo de estructuras hasta la gestión de recursos en obras.",
+    "Podrás explorar áreas como ingeniería de transporte, construcción sostenible y obras civiles.",
+    "Estudiarás cómo planificar y ejecutar proyectos de ingeniería civil de manera eficiente.",
+    "La carrera cubre desde el análisis estructural hasta el diseño de obras públicas.",
+    "Te formarás en el uso de software de diseño y modelado para proyectos de construcción.",
+    "El programa te prepara para enfrentar desafíos en el campo de la ingeniería civil contemporánea."
+  ]
+    },
+    {
+  "tag": "ingenieria_electrica",
+  "patterns": [
+    "Quiero información sobre Ingeniería Eléctrica",
+    "¿Qué puedo saber sobre Ingeniería Eléctrica?",
+    "Información sobre la carrera de Ingeniería Eléctrica",
+    "¿Cómo es la carrera de Ingeniería Eléctrica?",
+    "¿Qué se estudia en Ingeniería Eléctrica?",
+    "Estoy interesado en Ingeniería Eléctrica",
+    "Háblame sobre la carrera de Ingeniería Eléctrica",
+    "¿Qué ofrece el programa de Ingeniería Eléctrica?",
+    "¿Qué áreas cubre la carrera de Ingeniería Eléctrica?",
+    "¿Cuál es el plan de estudios de Ingeniería Eléctrica?"
+  ],
+  "responses": [
+    "La carrera de Ingeniería Eléctrica te prepara para trabajar en el ámbito de la electricidad y la energía.",
+    "Aprenderás sobre sistemas de potencia, electrónica de potencia y control de procesos eléctricos.",
+    "Nuestro programa incluye materias como circuitos eléctricos, máquinas eléctricas y energías renovables.",
+    "En Unimeta, ofrecemos un enfoque práctico en la instalación y mantenimiento de sistemas eléctricos.",
+    "El plan de estudios abarca desde el diseño de sistemas eléctricos hasta la gestión de proyectos energéticos.",
+    "Podrás explorar áreas como automatización industrial, sistemas de control y tecnologías eléctricas.",
+    "Estudiarás cómo analizar y diseñar sistemas eléctricos eficientes y sostenibles.",
+    "La carrera cubre desde la teoría eléctrica hasta la aplicación en proyectos reales.",
+    "Te formarás en el uso de software de simulación y diseño para proyectos eléctricos.",
+    "El programa te prepara para enfrentar desafíos en el campo de la ingeniería eléctrica moderna."
+  ]
+    },
+    {
+  "tag": "ingenieria_industrial",
+  "patterns": [
+    "Quiero información sobre Ingeniería Industrial",
+    "¿Qué puedo saber sobre Ingeniería Industrial?",
+    "Información sobre la carrera de Ingeniería Industrial",
+    "¿Cómo es la carrera de Ingeniería Industrial?",
+    "¿Qué se estudia en Ingeniería Industrial?",
+    "Estoy interesado en Ingeniería Industrial",
+    "Háblame sobre la carrera de Ingeniería Industrial",
+    "¿Qué ofrece el programa de Ingeniería Industrial?",
+    "¿Qué áreas cubre la carrera de Ingeniería Industrial?",
+    "¿Cuál es el plan de estudios de Ingeniería Industrial?"
+  ],
+  "responses": [
+    "La carrera de Ingeniería Industrial te prepara para optimizar procesos y sistemas en empresas.",
+    "Aprenderás sobre gestión de operaciones, logística y mejora continua.",
+    "Nuestro programa incluye materias como ingeniería de calidad, gestión de proyectos y análisis de costos.",
+    "En Unimeta, ofrecemos un enfoque práctico en la mejora de la eficiencia empresarial.",
+    "El plan de estudios abarca desde la gestión de recursos hasta la planificación estratégica.",
+    "Podrás explorar áreas como manufactura, gestión de la cadena de suministro y ergonomía.",
+    "Estudiarás cómo implementar sistemas eficientes para aumentar la productividad.",
+    "La carrera cubre desde el análisis de procesos hasta la implementación de tecnologías innovadoras.",
+    "Te formarás en el uso de herramientas de calidad y gestión de proyectos.",
+    "El programa te prepara para enfrentar desafíos en la industria moderna."
+  ]
+    },
+    {
+  "tag": "ingenieria_alimentos",
+  "patterns": [
+    "Quiero información sobre Ingeniería de Alimentos",
+    "¿Qué puedo saber sobre Ingeniería de Alimentos?",
+    "Información sobre la carrera de Ingeniería de Alimentos",
+    "¿Cómo es la carrera de Ingeniería de Alimentos?",
+    "¿Qué se estudia en Ingeniería de Alimentos?",
+    "Estoy interesado en Ingeniería de Alimentos",
+    "Háblame sobre la carrera de Ingeniería de Alimentos",
+    "¿Qué ofrece el programa de Ingeniería de Alimentos?",
+    "¿Qué áreas cubre la carrera de Ingeniería de Alimentos?",
+    "¿Cuál es el plan de estudios de Ingeniería de Alimentos?"
+  ],
+  "responses": [
+    "La carrera de Ingeniería de Alimentos te prepara para trabajar en la producción y procesamiento de alimentos.",
+    "Aprenderás sobre tecnología de alimentos, control de calidad y seguridad alimentaria.",
+    "Nuestro programa incluye materias como microbiología, química de alimentos y conservación.",
+    "En Unimeta, ofrecemos un enfoque práctico en el desarrollo y mejora de productos alimentarios.",
+    "El plan de estudios abarca desde el análisis de nutrientes hasta la gestión de la cadena de suministro.",
+    "Podrás explorar áreas como innovación en alimentos, desarrollo de productos y normativas de calidad.",
+    "Estudiarás cómo garantizar la calidad y seguridad de los alimentos durante su producción.",
+    "La carrera cubre desde la investigación de nuevas técnicas de conservación hasta el diseño de procesos alimentarios.",
+    "Te formarás en el uso de tecnologías modernas para la producción eficiente de alimentos.",
+    "El programa te prepara para enfrentar desafíos en la industria alimentaria contemporánea."
+  ]
+    },
+    {
+  "tag": "ingenieria_sistemas",
+  "patterns": [
+    "Quiero información sobre Ingeniería de Sistemas",
+    "¿Qué puedo saber sobre Ingeniería de Sistemas?",
+    "Información sobre la carrera de Ingeniería de Sistemas",
+    "¿Cómo es la carrera de Ingeniería de Sistemas?",
+    "¿Qué se estudia en Ingeniería de Sistemas?",
+    "Estoy interesado en Ingeniería de Sistemas",
+    "Háblame sobre la carrera de Ingeniería de Sistemas",
+    "¿Qué ofrece el programa de Ingeniería de Sistemas?",
+    "¿Qué áreas cubre la carrera de Ingeniería de Sistemas?",
+    "¿Cuál es el plan de estudios de Ingeniería de Sistemas?"
+  ],
+  "responses": [
+    "La carrera de Ingeniería de Sistemas te prepara para diseñar y desarrollar sistemas informáticos.",
+    "Aprenderás sobre programación, bases de datos y redes de computadoras.",
+    "Nuestro programa incluye materias como desarrollo de software, seguridad informática y análisis de sistemas.",
+    "En Unimeta, ofrecemos un enfoque práctico en la creación de soluciones tecnológicas.",
+    "El plan de estudios abarca desde la gestión de proyectos de TI hasta la inteligencia artificial.",
+    "Podrás explorar áreas como desarrollo web, administración de sistemas y big data.",
+    "Estudiarás cómo implementar y mantener sistemas eficientes y seguros.",
+    "La carrera cubre desde la programación hasta la gestión de infraestructuras tecnológicas.",
+    "Te formarás en el uso de herramientas de desarrollo y metodologías ágiles.",
+    "El programa te prepara para enfrentar desafíos en el campo de la tecnología y la informática."
+  ]
+   },
+    {
+  "tag": "tipos_beca",
+  "patterns": [
+    "Hablame de las becas",
+    "Tipos de becas",
+    "¿Qué tipos de becas hay?",
+    "¿Cuáles son las becas disponibles?",
+    "Información sobre becas",
+    "¿Qué opciones de becas ofrece UNIMETA?",
+    "¿Cómo puedo obtener una beca?",
+    "¿Existen becas para estudiantes de pregrado?",
+    "¿Cuáles son los requisitos para las becas?",
+    "¿Hay becas por mérito académico?"
+  ],
+  "responses": [
+    "En UNIMETA, ofrecemos varios tipos de becas, entre ellas:\n\n- **Beca 'María Lucía García de Mojica'**: Para estudiantes de pregrado o posgrado con mérito académico y escasos recursos económicos.",
+    "Algunos tipos de becas que puedes encontrar en UNIMETA son:\n\n- **Beca mejor bachiller**: Otorgada a los mejores bachilleres que ingresan a la universidad.\n- **Beca mejor prueba Saber 11**: Para estudiantes con excelentes resultados en las pruebas Saber 11.",
+    "También ofrecemos:\n\n- **Beca por convenio**: Para estudiantes beneficiados por acuerdos interinstitucionales.\n- **Beca región**: Dirigida a estudiantes de la región del Meta.",
+    "Además, tenemos:\n\n- **Beca por desempeño académico**: Para estudiantes que mantienen un alto rendimiento académico.\n- **Beca por actividades extracurriculares**: Para aquellos que participan activamente en deportes o cultura.",
+    "Te invitamos a visitar nuestra página web para más detalles sobre los requisitos y el proceso de aplicación para cada tipo de beca."
+  ]
+    },
+    {
+  "tag": "resoluciones",
+  "patterns": [
+    "¿Dónde puedo encontrar las resoluciones de parciales?",
+    "Necesito información sobre las resoluciones académicas",
+    "¿Dónde puedo consultar el calendario académico?",
+    "Quiero saber más sobre las resoluciones estudiantiles",
+    "¿Cómo accedo a las resoluciones de la universidad?",
+    "¿Qué tipo de resoluciones académicas están disponibles?",
+    "¿Hay un enlace directo para las resoluciones?",
+    "¿Puedo consultar el calendario académico en línea?",
+    "¿Dónde se publican las resoluciones estudiantiles?",
+    "¿Hay actualizaciones sobre las resoluciones académicas?"
+  ],
+  "responses": [
+    "Puedes encontrar las resoluciones académicas y el calendario académico en nuestro sitio web oficial. Aquí tienes los enlaces:\n\n- [Resoluciones de Parciales](http://www.unimeta.edu.co/resoluciones-parciales)\n- [Calendario Académico](http://www.unimeta.edu.co/calendario-academico)\n\n¿Hay algo más en lo que pueda ayudarte?",
+    "Las resoluciones académicas se publican regularmente en nuestra página web. Para más información, consulta los siguientes enlaces:\n\n- [Resoluciones de Parciales](http://www.unimeta.edu.co/resoluciones-parciales)\n- [Calendario Académico](http://www.unimeta.edu.co/calendario-academico)",
+    "Puedes acceder a las resoluciones y el calendario académico en línea. Aquí tienes los enlaces directos:\n\n- [Resoluciones de Parciales](http://www.unimeta.edu.co/resoluciones-parciales)\n- [Calendario Académico](http://www.unimeta.edu.co/calendario-academico)\n\nSi necesitas más información, no dudes en preguntar.",
+    "En nuestro sitio web, encontrarás toda la información sobre resoluciones académicas. Consulta estos enlaces:\n\n- [Resoluciones de Parciales](http://www.unimeta.edu.co/resoluciones-parciales)\n- [Calendario Académico](http://www.unimeta.edu.co/calendario-academico)",
+    "Para acceder a las resoluciones académicas, visita nuestra página web. Aquí tienes los enlaces relevantes:\n\n- [Resoluciones de Parciales](http://www.unimeta.edu.co/resoluciones-parciales)\n- [Calendario Académico](http://www.unimeta.edu.co/calendario-academico)."
+  ]
+    },
+    {
+  "tag": "precios",
+  "patterns": [
+    "¿Cuál es el costo de la matrícula?",
+    "¿Cuánto cuesta estudiar en su universidad?",
+    "Información sobre precios",
+    "¿Qué precios tienen las carreras?",
+    "¿Hay costos específicos para cada carrera?",
+    "¿Cómo puedo consultar los precios de matrícula?",
+    "¿Cuánto debo pagar por la matrícula de Ingeniería de Sistemas?",
+    "¿Cuánto cuesta la matrícula de Administración de Empresas?",
+    "¿Hay diferencias de precios entre las carreras?",
+    "¿Dónde puedo encontrar los precios de matrícula?"
+  ],
+  "responses": [
+    "Los costos de matrícula varían según el programa de estudios y otros factores. ¿En qué programa estás interesado?",
+    "Los precios de matrícula dependen del programa. Puedes consultar los detalles de cada carrera en los siguientes enlaces:\n\n- [Ingeniería de Sistemas](http://www.unimeta.edu.co/precios/ingenieria-sistemas)\n- [Administración de Empresas](http://www.unimeta.edu.co/precios/administracion-empresas)\n- [Contaduría Pública](http://www.unimeta.edu.co/precios/contaduria-publica)\n- [Mercadeo y Publicidad](http://www.unimeta.edu.co/precios/mercadeo-publicidad)\n- [Derecho](http://www.unimeta.edu.co/precios/derecho)\n- [Comunicación Social y Periodismo](http://www.unimeta.edu.co/precios/comunicacion-social)\n- [Arquitectura](http://www.unimeta.edu.co/precios/arquitectura)\n- [Ingeniería Agroindustrial](http://www.unimeta.edu.co/precios/ingenieria-agroindustrial)\n- [Ingeniería Ambiental](http://www.unimeta.edu.co/precios/ingenieria-ambiental)\n- [Ingeniería Civil](http://www.unimeta.edu.co/precios/ingenieria-civil)\n- [Ingeniería Eléctrica](http://www.unimeta.edu.co/precios/ingenieria-electrica)\n- [Ingeniería Industrial](http://www.unimeta.edu.co/precios/ingenieria-industrial)\n- [Ingeniería de Alimentos](http://www.unimeta.edu.co/precios/ingenieria-alimentos)",
+    "Puedes encontrar información sobre los precios de matrícula de cada carrera en los siguientes enlaces:\n\n- [Ingeniería de Sistemas](http://www.unimeta.edu.co/precios/ingenieria-sistemas)\n- [Administración de Empresas](http://www.unimeta.edu.co/precios/administracion-empresas)\n- [Contaduría Pública](http://www.unimeta.edu.co/precios/contaduria-publica)\n- [Mercadeo y Publicidad](http://www.unimeta.edu.co/precios/mercadeo-publicidad)\n- [Derecho](http://www.unimeta.edu.co/precios/derecho)\n- [Comunicación Social y Periodismo](http://www.unimeta.edu.co/precios/comunicacion-social)\n- [Arquitectura](http://www.unimeta.edu.co/precios/arquitectura)\n- [Ingeniería Agroindustrial](http://www.unimeta.edu.co/precios/ingenieria-agroindustrial)\n- [Ingeniería Ambiental](http://www.unimeta.edu.co/precios/ingenieria-ambiental)\n- [Ingeniería Civil](http://www.unimeta.edu.co/precios/ingenieria-civil)\n- [Ingeniería Eléctrica](http://www.unimeta.edu.co/precios/ingenieria-electrica)\n- [Ingeniería Industrial](http://www.unimeta.edu.co/precios/ingenieria-industrial)\n- [Ingeniería de Alimentos](http://www.unimeta.edu.co/precios/ingenieria-alimentos)\n\nSi necesitas información específica, no dudes en preguntar."
+  ]
+    },
+    {
+  "tag": "recursos",
+  "patterns": [
+    "¿Qué tipo de recursos ofrecen para los estudiantes?",
+    "Información sobre los recursos disponibles",
+    "¿Hay bibliotecas o laboratorios disponibles?",
+    "¿Qué instalaciones tienen para los estudiantes?",
+    "¿Puedo acceder a laboratorios en la universidad?",
+    "¿Qué servicios de apoyo ofrecen a los estudiantes?",
+    "¿Existen centros de estudio o bibliotecas?",
+    "¿Hay recursos tecnológicos disponibles?",
+    "¿Tienen acceso a plataformas digitales?",
+    "¿Ofrecen apoyo académico a los estudiantes?"
+  ],
+  "responses": [
+    "En nuestra universidad, contamos con una variedad de recursos para apoyar a los estudiantes:\n\n- **Bibliotecas**: Amplias colecciones de libros y recursos digitales.\n- **Laboratorios**: Equipados para prácticas de diversas carreras.\n- **Servicios de Tutoría**: Asesoría académica y apoyo en diferentes áreas.",
+    "Tenemos diversos recursos disponibles, tales como:\n\n- **Bibliotecas**: Acceso a una extensa gama de materiales y espacios de estudio.\n- **Laboratorios**: Instalaciones para experimentación y prácticas.\n- **Centros de Apoyo Académico**: Programas de tutoría y talleres.",
+    "Ofrecemos una variedad de recursos, que incluyen:\n\n- **Bibliotecas**: Para la investigación y el estudio.\n- **Laboratorios**: Equipados con tecnología avanzada para prácticas.\n- **Plataformas Digitales**: Acceso a recursos en línea y cursos virtuales.",
+    "Entre nuestros recursos para estudiantes, encontrarás:\n\n- **Bibliotecas**: Espacios para estudiar y acceder a libros.\n- **Laboratorios**: Para la formación práctica en diversas disciplinas.\n- **Asesorías Académicas**: Para ayudar con tus estudios.",
+    "Los recursos que ofrecemos incluyen:\n\n- **Bibliotecas**: Con una variedad de materiales y espacios de estudio.\n- **Laboratorios**: Para prácticas y experimentos en distintas áreas.\n- **Soporte Académico**: Servicios de tutoría y orientación."
+  ]
+    },
+    {
+  "tag": "contacto",
+  "patterns": [
+    "¿Cómo puedo contactar a la universidad?",
+    "¿Cuál es el número de teléfono de contacto?",
+    "¿Dónde están ubicadas las oficinas?",
+    "Información de contacto",
+    "¿Hay un correo electrónico para consultas?",
+    "¿Cómo puedo hablar con un asesor académico?",
+    "¿Puedo visitar las oficinas en persona?",
+    "¿Qué horarios tienen las oficinas?",
+    "¿Cuál es la dirección de la universidad?",
+    "¿Tienen redes sociales para contacto?"
+  ],
+  "responses": [
+    "Puedes contactar a la universidad a través del siguiente número de teléfono: **(123) 456-7890**. También puedes enviarnos un correo electrónico a **info@unimeta.edu.co**.",
+    "Para consultas, puedes llamarnos al **(123) 456-7890** o enviarnos un correo a **info@unimeta.edu.co**. Estaremos encantados de ayudarte.",
+    "Nuestra dirección es **Calle Falsa 123, Ciudad, País**. También puedes contactarnos por teléfono al **(123) 456-7890** o por correo electrónico a **info@unimeta.edu.co**.",
+    "Si deseas hablar con un asesor académico, puedes llamarnos al **(123) 456-7890** o visitar nuestras oficinas en **Calle Falsa 123, Ciudad**. Estamos aquí para ayudarte.",
+    "Las oficinas están abiertas de lunes a viernes, de 8:00 a.m. a 5:00 p.m. Puedes visitarnos en **Calle Falsa 123, Ciudad** o contactarnos al **(123) 456-7890**."
+  ]
+  },
+    {
+  "tag": "noticias",
+  "patterns": [
+    "¿Cuáles son las últimas noticias de la universidad?",
+    "¿Dónde puedo encontrar las noticias actuales?",
+    "¿Hay novedades en la universidad?",
+    "¿Qué noticias recientes hay?",
+    "¿Cómo puedo estar al tanto de las noticias?",
+    "¿Tienen un boletín informativo?",
+    "¿Dónde puedo ver comunicados oficiales?",
+    "¿Hay noticias sobre eventos futuros?",
+    "¿Puedo seguir las noticias en redes sociales?",
+    "¿Qué está pasando en la universidad?"
+  ],
+  "responses": [
+    "Puedes encontrar las últimas noticias de la universidad en nuestra página web oficial en la sección de noticias. También publicamos actualizaciones en nuestras redes sociales.",
+    "Las novedades y noticias actuales se pueden consultar en la sección de noticias de nuestro sitio web. También puedes suscribirte a nuestro boletín informativo.",
+    "Para estar al tanto de las noticias, puedes visitar nuestra página oficial o seguirnos en redes sociales como Facebook y Twitter. Publicamos actualizaciones regularmente.",
+    "Las últimas noticias incluyen:\n\n- **Nuevos programas académicos**: Información sobre los nuevos programas disponibles.\n- **Eventos próximos**: Detalles sobre actividades y conferencias. Puedes consultar más en nuestra página de noticias.",
+    "Puedes seguir las noticias en nuestra página oficial y en nuestras redes sociales. Publicamos comunicados importantes y actualizaciones frecuentemente."
+  ]
+   },
+    {
+  "tag": "soporte_tecnico",
+  "patterns": [
+    "¿Cómo puedo obtener soporte técnico?",
+    "¿Tienen un servicio de soporte técnico?",
+    "¿Dónde puedo reportar problemas técnicos?",
+    "¿Hay asistencia para problemas con el correo electrónico?",
+    "¿Puedo obtener ayuda con el acceso a plataformas digitales?",
+    "¿Cuál es el número de contacto para soporte técnico?",
+    "¿Tienen un portal de soporte?",
+    "¿Cómo resuelvo problemas de conexión a internet?",
+    "¿Hay horarios específicos para el soporte técnico?",
+    "¿Puedo recibir asistencia en persona?"
+  ],
+  "responses": [
+    "Puedes obtener soporte técnico contactando a nuestro equipo de soporte a través del correo electrónico **soporte@unimeta.edu.co** o llamando al **(123) 456-7890**. Estamos aquí para ayudarte.",
+    "Sí, contamos con un servicio de soporte técnico. Puedes reportar problemas técnicos a través de nuestro portal de soporte o enviando un correo a **soporte@unimeta.edu.co**.",
+    "Si necesitas asistencia para problemas técnicos, puedes dirigirte a nuestro portal de soporte en línea o enviar un correo a **soporte@unimeta.edu.co**. También puedes llamarnos al **(123) 456-7890**.",
+    "Para problemas con el correo electrónico, te recomendamos contactar a soporte técnico directamente a través de **soporte@unimeta.edu.co**. Estaremos encantados de ayudarte a resolver cualquier inconveniente.",
+    "Puedes recibir asistencia técnica en persona en nuestra oficina de soporte, ubicada en **Calle Falsa 123, Ciudad**. También ofrecemos soporte remoto a través de correo electrónico y teléfono."
+  ]
+  },
+  {
+  "tag": "salud_bienestar",
+  "patterns": [
+    "¿Qué servicios de salud ofrecen?",
+    "¿Hay atención médica en la universidad?",
+    "¿Tienen programas de bienestar estudiantil?",
+    "¿Dónde puedo acceder a servicios de salud?",
+    "¿Ofrecen asesoramiento psicológico?",
+    "¿Qué recursos de bienestar están disponibles?",
+    "¿Hay actividades deportivas en la universidad?",
+    "¿Cómo puedo inscribirme en programas de bienestar?",
+    "¿Tienen charlas sobre salud mental?",
+    "¿Dónde está ubicada la clínica estudiantil?"
+  ],
+  "responses": [
+    "Ofrecemos una variedad de servicios de salud para nuestros estudiantes, incluyendo atención médica básica, asesoramiento psicológico y programas de bienestar. ¿Te gustaría saber más sobre algún servicio en particular?",
+    "Sí, tenemos atención médica disponible en la universidad. Puedes visitar nuestra clínica estudiantil para consultas. También ofrecemos programas de salud y bienestar a lo largo del año.",
+    "Nuestra universidad cuenta con programas de bienestar estudiantil, que incluyen actividades físicas, talleres de salud mental y asesoramiento. Puedes inscribirte a través de nuestra página web o en la oficina de bienestar.",
+    "Puedes acceder a los servicios de salud en nuestra clínica estudiantil, ubicada en **Calle Falsa 123, Ciudad**. Ofrecemos atención médica y servicios de asesoramiento psicológico.",
+    "Sí, ofrecemos asesoramiento psicológico para ayudar a los estudiantes con sus necesidades emocionales y mentales. Puedes solicitar una cita en la clínica estudiantil o a través de nuestra página web."
+  ]
+   },
+   {
+  "tag": "eventos_actuales",
+  "patterns": [
+    "¿Hay algún evento próximo?",
+    "¿Cuáles son los eventos actuales?",
+    "¿Qué eventos hay esta semana?",
+    "Eventos",
+    "¿Qué actividades están programadas?",
+    "¿Hay conferencias o talleres próximos?",
+    "¿Cuándo es el próximo evento?",
+    "¿Puedo inscribirme en algún evento?",
+    "¿Dónde puedo ver la agenda de eventos?",
+    "¿Hay eventos especiales para estudiantes?"
+  ],
+  "responses": [
+    "Actualmente estamos organizando varios eventos para los estudiantes. Aquí hay algunos de los próximos eventos:\n\n- **Conferencia sobre Innovación**: Fecha y hora.\n- **Taller de Habilidades Blandas**: Fecha y hora.\n\n¿Te gustaría más información sobre alguno en particular?",
+    "Sí, tenemos varios eventos programados. Algunos de ellos son:\n\n- **Feria de Emprendimiento**: Fecha y lugar.\n- **Seminario de Desarrollo Profesional**: Fecha y lugar.\n\n¿Quieres más detalles sobre alguno de ellos?",
+    "Esta semana tenemos programados los siguientes eventos:\n\n- **Jornada de Puertas Abiertas**: Fecha y hora.\n- **Ciclo de Charlas Académicas**: Fecha y hora.\n\n¿Te gustaría más información sobre alguno en específico?",
+    "Pronto se llevarán a cabo varios eventos interesantes. Algunos de ellos son:\n\n- **Encuentro Cultural**: Fecha y lugar.\n- **Taller de Liderazgo**: Fecha y lugar.\n\nSi deseas saber más, házmelo saber.",
+    "Para conocer los eventos actuales, puedes visitar nuestra página web. También tenemos:\n\n- **Charlas Motivacionales**: Fecha y hora.\n- **Eventos Deportivos**: Fecha y lugar.\n\n¿Te gustaría inscribirte en alguno?"
+  ]
+}
+  ]
+}
